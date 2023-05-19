@@ -4,7 +4,12 @@ title:  "첫 포스트입니다!"
 categories: test
 tag: [posting, blog, jekyll]
 toc: true
+author_profile: false
+sidebar:
+    nav: "docs"
+search: false
 ---
+
 # 테스트
 작성 확인<br/>
 <hr/>
