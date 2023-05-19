@@ -1,17 +1,19 @@
 ---
 layout: single
-title:  "첫 포스트입니다!"
+title:  "테스트 페이지"
 categories: test
 tag: [posting, blog, jekyll]
 toc: true
+toc_sticky: true
 author_profile: false
 sidebar:
     nav: "docs"
 search: false
 ---
-
+[공지사항](../../notice){: .btn .btn--info}
 # 테스트
 작성 확인<br/>
+{% include video id="U0n8B9XZ8Tc" provider="youtube" %}
 <hr/>
 ## 이미지목차
 ### 이미지 세부목차1
