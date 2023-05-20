@@ -4,8 +4,11 @@ main:
     url: /categories/
   - title: "Tag"
     url: /tags/
+  - title: "By Year"
+    url: /year-archive/  
   - title: "Search"
     url: /search/
+  
 
 docs:
   - title: "Index"
@@ -28,3 +31,9 @@ docs:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+counts:
+  - title: "Category"
+    use: true
+  - title: "Tag"
+    use: false
