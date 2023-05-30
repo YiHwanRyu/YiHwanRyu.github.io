@@ -1,25 +1,73 @@
 ---
 permalink: /404.html
-layout: default
 ---
+<!DOCTYPE html>
+<html lang="en">
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 ERROR</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
 
-<div class="container">
-  <h1>404</h1>
+    * {
+      font-family: 'Gowun Batang', serif;
+    }
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+    .body {
+      background-color: white;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .wrapTitle {
+      background-color: #f3f3f3;
+
+      align-content: center;
+      margin: 30px auto 0px auto;
+    }
+
+    .content {
+      text-align: center;
+    }
+
+    .buttons>button {
+      font-size: 15px;
+      width: 170px;
+    }
+  </style>
+  <script>
+    prevPage() {
+      alert("이전페이지로 이동합니다.")
+      window.history.back();
+    }
+    goHome() {
+      alert("블로그 홈으로 이동합니다.")
+      window.location.herf = 'https://yihwanryu.github.io/';
+    }
+  </script>
+</head>
+
+<body class="body">
+  <div class="wrapTitle">
+    <div>
+      <h1 class="title">
+        [ERROR | 404]
+      </h1>
+      <h2 class="content">
+        Sorry, this page is not available.
+        <div class="buttons">
+          <button onclick="goHome()">Home</button>
+          <button onclick="prevPage()">Prev</button>
+        </div>
+      </h2>
+    </div>
+  </div>
+</body>
+
+</html>
