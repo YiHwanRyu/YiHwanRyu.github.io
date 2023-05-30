@@ -48,7 +48,12 @@ permalink: /404.html
     }
     function goHome() {
       alert("블로그 홈으로 이동합니다.")
-      window.location.herf = 'https://yihwanryu.github.io/';
+      window.location.href = 'https://yihwanryu.github.io/'
+      // window.location.herf = 'https://yihwanryu.github.io/'
+      // Failed to load resource: the server responded with a status of 404 ()
+
+      // window.location.replace('https://yihwanryu.github.io/');
+      // history를 남기지 않는다.
     }
   </script>
 </head>
