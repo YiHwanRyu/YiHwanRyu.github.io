@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "류이환"
   avatar           : "/assets/images/bio.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Backend Developer"
+  bio              : "Web Developer"
   location         : "South Korea"
   email            : 
   links:
